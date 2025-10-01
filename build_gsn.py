@@ -90,6 +90,7 @@ def build_gsn_from_json(json_path: str) -> Tuple[list[object], dict[str, object]
             obj = goal(**kwargs)
 
 
+
         else :
             raise ValueError(f"Unsupported node type: {typ} (id: {nid})")
         
